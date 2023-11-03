@@ -6,4 +6,4 @@
 
 include device/google/pantah/BoardConfigLineage.mk
 
-include vendor/google/panther/BoardConfigVendor.mk
+include vendor/google_devices/panther/BoardConfigPartial.mk

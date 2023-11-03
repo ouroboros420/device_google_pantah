@@ -29,7 +29,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := google/panther/panther:14/UP1A.231005.007/10754064:user/release-keys
 
-$(call inherit-product, vendor/google/panther/panther-vendor.mk)
+$(call inherit-product, vendor/google_devices/panther/device-partial.mk)
 
 ## More Bootleg stuff
 # Maintainer Prop
